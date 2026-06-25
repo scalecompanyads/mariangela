@@ -872,25 +872,30 @@ img {
         padding-bottom: 40px;
         text-align: center;
         align-items: flex-end;
+        background-color: var(--color-primary);
     }
     
     .hero::before {
-        background-image: linear-gradient(to top, rgba(15, 30, 54, 1) 0%, rgba(15, 30, 54, 0.95) 45%, rgba(15, 30, 54, 0) 80%), url('hero-mobile.jpg');
+        height: 45%;
+        background-image: linear-gradient(to top, var(--color-primary) 0%, rgba(15, 30, 54, 0) 40%), url('hero-mobile.jpg');
+        background-position: top center;
     }
     
     .pre-headline {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         border-left: none;
         padding-left: 0;
+        font-size: 0.8rem;
     }
     
     .headline {
-        font-size: 1.9rem;
+        font-size: 1.65rem;
+        margin-bottom: 20px;
     }
     
     .subheadline {
-        font-size: 1.05rem;
-        margin-bottom: 35px;
+        font-size: 0.95rem;
+        margin-bottom: 25px;
     }
     
     .section-header {
